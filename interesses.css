@@ -1,0 +1,123 @@
+.container {
+    height: auto;
+    max-height: 2000px;
+    max-width: 100%;
+    min-height: auto;
+    min-width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.border {
+    height: 200px;
+    width: 299px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+
+.border:hover {
+    border: 1px solid #fff;
+}
+
+.card {
+    height: 190px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card0 {
+    background: url("gaming pic.jpg") center center no-repeat;
+    background-size: 500px;
+}
+
+.card0:hover {
+    background: url("gaming pic.jpg") left center no-repeat;
+    background-size: 900px;
+    display: block;
+    color: black;
+    box-shadow: 0 0 5px white,
+    0 0 2px #565656,
+    0 0 8px #565656,
+    0 0 10px white;
+}
+
+.card0:hover h2 {
+    opacity: 1;
+}
+
+.card0:hover .fa {
+    opacity: 1;
+}
+
+.card1 {
+    background: url("fitness pic.jpg") center center no-repeat;
+    background-size: 400px;
+}
+
+.card1:hover {
+    background: url("fitness pic.jpg") left center no-repeat;
+    background-size: 600px;
+    display: block;
+    color: black;
+    box-shadow: 0 0 5px white,
+    0 0 2px #565656,
+    0 0 8px #565656,
+    0 0 10px white;
+}
+
+.card1:hover h2 {
+    opacity: 1;
+}
+
+.card1:hover .fa {
+    opacity: 1;
+}
+
+.card2 {
+    background: url("code pic.jpg") center center no-repeat;
+    background-size: 300px;
+}
+
+.card2:hover {
+    background: url("code pic.jpg") left center no-repeat;
+    background-size: 600px;
+    display: block;
+    color: black;
+    box-shadow: 0 0 5px white,
+    0 0 2px #565656,
+    0 0 8px #565656,
+    0 0 10px white;
+}
+
+.card2:hover h2 {
+    opacity: 1;
+}
+
+.card2:hover .fa {
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.fa {
+    opacity: 0;
+    transition: opacity 1s;
+}

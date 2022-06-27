@@ -1,0 +1,275 @@
+/* hi-res laptops and desktops*/
+@media screen and (max-width: 1700px) {
+  .div_trainen {
+    padding: 100px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .wrapper .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+/* samsung galaxy a51*/
+@media screen and (max-width: 412px) {
+  .mobile_text:after {
+    display: block;
+    content: "Klik op de afbeelding om mijn cijfers te zien.";
+  }
+
+  .phone:before {
+    padding-bottom: 20px;
+    content: "Samsung Galaxy A51";
+    color: white;
+  }
+
+  .replace {
+    display: none;
+  }
+
+  .replace:after {
+    display: block;
+    content: "Klik op de afbeelding om mijn cijfers te zien.";
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  .div_trainen {
+    background: white;
+    padding: 20px;
+  }
+
+  .periode_1:hover {
+    width: 300px;
+  }
+
+  .periode_2:hover {
+    width: 300px;
+  }
+
+  .periode_3:hover {
+    width: 300px;
+  }
+
+  .periode_4:hover {
+    width: 300px;
+  }
+
+  * {
+    max-width: 412px;
+  }
+
+  .front {
+    width: 50%;
+  }
+
+  .flip-diploma, .front, .back {
+    width: 328.5px;
+    height: 448.5px;
+  }
+
+  .flip-diploma, .back-logo {
+    width: 328.5px;
+    height: 448.5px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  body {
+    max-width: 412px;
+    margin: 0;
+  }
+
+  .wrapper {
+    max-width: 412px;
+    font-size: 18px;
+    height: auto;
+  }
+
+  .bench {
+    left: 0;
+    bottom: 0;
+  }
+
+  video {
+    width: 80%;
+    height: 80%;
+  }
+
+  nav .logo {
+    font-size: 12px;
+    font-weight: 350;
+    padding: 0px;
+    margin: 0;
+  }
+
+  nav.logo:hover {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 10px;
+  }
+
+  header nav ul li a:hover {
+    font-size: 9px;
+    font-weight: 250;
+    letter-spacing: 1px;
+    padding: 4px 5px;
+    border-radius: 6px;
+  }
+
+  header nav ul li a {
+    margin: 0 2px;
+    font-size: 8px;
+    font-weight: 250;
+    background-color: #565656;
+    border-radius: 6px;
+    box-shadow: #8e9094;
+  }
+
+  nav button span, nav button::before, nav button::after {
+    font: 20px "open sans condensed";
+  }
+
+  .active-link {
+    font-size: 10px;
+    font-weight: 200;
+    padding: 4px 5px;
+  }
+}
+/* iphone SE */
+@media screen and (max-width: 376px) {
+  .phone:before {
+    padding-bottom: 20px;
+    content: "Iphone SE";
+    color: white;
+  }
+
+  .replace {
+    display: none;
+  }
+
+  .mobile_text:after {
+    display: block;
+    content: "Klik op de afbeelding om mijn cijfers te zien.";
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  .div_trainen {
+    background: white;
+    padding: 20px;
+  }
+
+  .periode_1:hover {
+    width: 300px;
+  }
+
+  .periode_2:hover {
+    width: 300px;
+  }
+
+  .periode_3:hover {
+    width: 300px;
+  }
+
+  .periode_4:hover {
+    width: 300px;
+  }
+
+  * {
+    max-width: 412px;
+  }
+
+  .front {
+    width: 50%;
+  }
+
+  .flip-diploma, .front, .back {
+    width: 246.375px;
+    height: 336.375px;
+  }
+
+  .flip-diploma, .back-logo {
+    width: 246.375px;
+    height: 336.375px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  body {
+    max-width: 412px;
+    margin: 0;
+  }
+
+  .wrapper {
+    max-width: 412px;
+    font-size: 18px;
+    height: auto;
+  }
+
+  .bench {
+    left: 0;
+    bottom: 0;
+  }
+
+  video {
+    width: 80%;
+    height: 80%;
+  }
+
+  nav .logo {
+    font-size: 12px;
+    font-weight: 350;
+    padding: 0px;
+    margin: 0;
+  }
+
+  nav.logo:hover {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 10px;
+  }
+
+  header nav ul li a:hover {
+    font-size: 9px;
+    font-weight: 250;
+    letter-spacing: 1px;
+    padding: 4px 5px;
+    border-radius: 6px;
+  }
+
+  header nav ul li a {
+    margin: 0 2px;
+    font-size: 8px;
+    font-weight: 250;
+    background-color: #565656;
+    border-radius: 6px;
+    box-shadow: #8e9094;
+  }
+
+  nav button span, nav button::before, nav button::after {
+    font: 20px "open sans condensed";
+  }
+
+  .active-link {
+    font-size: 10px;
+    font-weight: 200;
+    padding: 4px 5px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
